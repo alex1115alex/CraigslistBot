@@ -1,0 +1,17 @@
+
+
+Name=
+PlayStation 4 Slim 1TB Console
+
+Desc=
+The all new lighter and slimmer PlayStation4 system has a 1TB hard drive for all of the greatest games, TV, music and more. Incredible Games You've come to the right place. Exclusive games take you on incredible journeys, from critically acclaimed indies to award-winning AAA hits. Endless Entertainment Something new and amazing is always in reach. Find what you're looking for and get it at the touch of a button via PlayStation entertainment options like PlayStation Vue and more. Connect your controller to your PS4 system with the USB cable: To charge your controller when in rest mode, you must first checkmark the [Supply Power to USB Ports] option in (Settings)> [Power Saving Settings] > [Set Functions Available in Rest Mode].
+
+Link=
+https://amzn.pw/Uc0xJ
+
+Name= 
+Nintendo Switch Red and Blue Joycons
+Desc=
+Introducing Nintendo Switch, the new home video game system from Nintendo. In addition to providing single and multiplayer thrills at home, the Nintendo Switch system can be taken on the go so players can enjoy a full home console experience anytime, anywhere. The mobility of a handheld is now added to the power of a home gaming system, with unprecedented new play styles brought to life by the two new Joy-Con controllers.
+Link=
+https://amzn.pw/zJZNN
