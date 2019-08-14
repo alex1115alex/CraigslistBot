@@ -11,13 +11,10 @@
 import os
 
 import time
-from mimify import File
 
 import Listing
 
 from selenium import webdriver
-
-import imageio
 
 from selenium.common.exceptions import NoSuchElementException
 
@@ -25,7 +22,6 @@ from pyvirtualdisplay import Display
 import spintax
 import requests
 from amazonify import amazonify
-
 
 # from guerrillamail import GuerrillaMailSession
 

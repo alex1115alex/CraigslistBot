@@ -6,7 +6,7 @@
 import argparse
 
 import time
-
+import shutil
 import Listing
 import AmazonListingGenerator
 import CraigslistBot
@@ -77,7 +77,7 @@ def main(protonLogin, protonPassword, loginEmail, loginPass, contactNumber, cont
 
     Run.debug("Execution time: %s seconds" % int(endExecTime - startExecTime))
     Run.debug("Completed all tasks")
-
+    shutil.rmtree('images/')
     return 0
 
 

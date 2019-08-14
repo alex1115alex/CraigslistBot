@@ -55,11 +55,6 @@ class CraigslistBot:
             self.display = Display(visible=1, size=(1248, 1000))  # 800x600
             self.display.start()
 
-        # CREATE TEMP EMAIL
-        # session = GuerrillaMailSession()
-        # print session.get_session_state()['email_address']
-        # print session.get_email_list()[0].guid
-
         self.client = webdriver.Firefox()
         self.isLoggedIn = False
 
@@ -191,6 +186,7 @@ class CraigslistBot:
         self.client.find_element_by_css_selector("input[value='96']").click()
         # time.sleep(self.waitTime)
 
+        """
         self.debug("Trying to fill in email")
         try:
             self.client.find_element_by_css_selector(
@@ -202,27 +198,23 @@ class CraigslistBot:
                 '#FromEMail').send_keys(self.loginEmail)
         except NoSuchElementException:
             self.debug("Not avaliable")
+        """
 
         self.debug("Checking 'Okay to contact by phone'")
-
+        self.waitForName("show_phone_ok")
         self.client.find_element_by_name("show_phone_ok").click()
-        # time.sleep(self.waitTime)
         self.client.find_element_by_name("contact_phone_ok").click()
-        # time.sleep(self.waitTime)
 
         self.debug("Checking 'Okay to contact by text'")
         self.client.find_element_by_name("contact_text_ok").click()
-        # time.sleep(self.waitTime)
 
         self.debug("Filling in contact phone number")
         self.client.find_element_by_name(
             "contact_phone").send_keys(self.contactNumber)
-        # time.sleep(self.waitTime)
 
         self.debug("Filling in contact name")
         self.client.find_element_by_name(
             "contact_name").send_keys(self.contactName)
-        # time.sleep(self.waitTime)
 
         self.debug("Filling in post title")
         spinName = spintax.spin(listing.name)
