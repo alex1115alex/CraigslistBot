@@ -23,10 +23,12 @@ import spintax
 import requests
 from amazonify import amazonify
 
-# from guerrillamail import GuerrillaMailSession
-
 
 class AmazonListingGenerator:
+
+    #region Helper methods
+
+    #region WaitFor methods
 
     def waitForName(self, name):
         for i in range(0, 30):
@@ -56,22 +58,32 @@ class AmazonListingGenerator:
                 break
             time.sleep(2)
 
+    #endregion
+
     @staticmethod
     def debug(inString):
         print(" [AMAZON] - %s" % inString.encode('utf-8').strip())
+
+    #endregion
 
     def __init__(self, amazonLinksFile):
         self.display = ""
 
         if not os.name == 'nt':
-            self.display = Display(visible=1, size=(1248, 1000))  # 800x600
+            self.display = Display(visible=0, size=(1248, 1000))  # 800x600
             self.display.start()
 
-        self.client = webdriver.Firefox()
+        profile = webdriver.FirefoxProfile()
+        profile.set_preference("browser.cache.disk.enable", False)
+        profile.set_preference("browser.cache.memory.enable", False)
+        profile.set_preference("browser.cache.offline.enable", False)
+        profile.set_preference("network.http.use-cache", False)
+
+        self.client = webdriver.Firefox(firefox_profile=profile)
+
 
         self.amazonLinksFile = amazonLinksFile
         self.affiliateTag = 'goodtastyfrui-20'
-
 
     def __del__(self):
         if not os.name == 'nt':
@@ -100,7 +112,7 @@ class AmazonListingGenerator:
         desc = ""
         formattedLink = ""
 
-        self.debug("Attempting to get Amazon link")
+        self.debug("Go to Amazon link")
         self.client.get(amazonLink)
 
         # region Get title and description
@@ -121,16 +133,16 @@ class AmazonListingGenerator:
         time.sleep(4)
         imageElementList = imagesBlock.find_elements_by_css_selector('img')
 
-        imagePaths = [] # save all image paths here
+        imagePaths = []  # save all image paths here
         i = 0
         for image in imageElementList:
-            if i > 8: # don't allow more than 8 images
+            if i > 8:  # don't allow more than 8 images
                 break
 
             self.debug("DOWNLOAD IMAGE")
-            titleString = title.encode("utf-8") # convert the title to a string
-            imagePath = 'images/' + titleString[0:14] + " " + str(i) + ".png" # specify image path
-            imageSrc = imageElementList[i].get_attribute('src') # get the image source
+            titleString = title.encode("utf-8")  # convert the title to a string
+            imagePath = 'images/' + titleString[0:14] + " " + str(i) + ".png"  # specify image path
+            imageSrc = imageElementList[i].get_attribute('src')  # get the image source
             self.debug("imageSrc: " + imageSrc)
             self.debug("imagePath: " + imagePath)
 
@@ -154,13 +166,28 @@ class AmazonListingGenerator:
 
         # region Format amazon link
 
+        self.debug("AAAAAAAAAAAAAAAAAAAAAAAA")
         self.debug("Formatting Amazon link: " + amazonLink)
         formattedLink = self.formatAmazonLink(amazonLink)
 
         # We're using amzn.pw. This site is dogshit so plan to migrate to another in the future
         self.debug("Shortenening link, loading amzn.pw")
-        self.client.get("https://amzn.pw/")
+        self.client.get("https://amzn.pw?url=" + amazonLink)
+
+        # Reload the hompage by clicking main logo
+        self.waitForClass("mlogo")
+        self.client.find_element_by_class_name("mlogo").click()
+        time.sleep(2)
+
+        # Wait for the new field and then put the link in
         self.waitForId("urlin")
+        self.client.find_element_by_id("urlin").send_keys(formattedLink)
+        self.client.find_element_by_id("shortenurl").click()
+
+        # Like I said, this website is dogshit and will sometimes give us cached links.
+        # Idk why running it again works... but it works. I guess.
+        self.client.get("http://example.com")
+        self.client.get("https://amzn.pw?url=" + amazonLink)
         self.client.find_element_by_id("urlin").send_keys(formattedLink)
         self.client.find_element_by_id("shortenurl").click()
 
@@ -173,6 +200,6 @@ class AmazonListingGenerator:
 
         # endregion
 
-        newListing = Listing.Listing(title, desc, formattedLink)
+        newListing = Listing.Listing(title, desc, formattedLink, imagePaths)
 
         return newListing

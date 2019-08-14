@@ -8,37 +8,16 @@
 # even though you strongly disallow bots like this one.
 # also thanks for providing a free affiliate marketing platform.
 
-import sys
-import argparse
-import string
-import ctypes
 import os
-import re
-import urllib
-import urllib2
-import cookielib
-import httplib
-import cookielib
 import time
-import base64
 import Listing
-from os import path
-from bs4 import BeautifulSoup
+
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
-from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
 from pyvirtualdisplay import Display
+
 import spintax
-
-
-# from guerrillamail import GuerrillaMailSession
 
 
 class CraigslistBot:
@@ -52,7 +31,7 @@ class CraigslistBot:
         self.display = ""
 
         if not os.name == 'nt':
-            self.display = Display(visible=1, size=(1248, 1000))  # 800x600
+            self.display = Display(visible=0, size=(1248, 1000))  # 800x600
             self.display.start()
 
         self.client = webdriver.Firefox()
@@ -102,9 +81,9 @@ class CraigslistBot:
                 break
 
             if looking == 0:
-                name += x;
+                name += x
             if looking == 1:
-                desc += x;
+                desc += x
             if looking == 2:
                 link = x  # assume links are 1 line only
                 myListing = Listing(name, desc, link)
@@ -114,7 +93,7 @@ class CraigslistBot:
                 link = ""
                 looking = 0
 
-        f.close
+        f.close()
         return listings
 
     def __del__(self):
@@ -265,8 +244,10 @@ class CraigslistBot:
 
         self.debug("uploading images")
         self.waitForName("file")
-        self.client.find_element_by_name("file").send_keys(os.getcwd() + "/moonman.jpg")
-        time.sleep(self.waitTime)
+        for imagePath in listing.imagePathList:
+            self.debug("Attempting to upload image: " + os.getcwd() + "/" + imagePath)
+            self.client.find_element_by_name("file").send_keys(os.getcwd() + "/" + imagePath)
+            time.sleep(self.waitTime)
 
         self.debug("Clicking done with images")
         self.client.find_element_by_class_name('bigbutton').click()
@@ -278,13 +259,16 @@ class CraigslistBot:
         # check if we need to verify the post
         time.sleep(self.waitTime)
         htmlText = self.client.find_element_by_css_selector("body").text
-        self.debug(htmlText)
+        # self.debug(htmlText)
         if "FURTHER ACTION REQUIRED" in htmlText:
             # wait for the email to come through and then varify it
             time.sleep(45)
             self.validatePostInEmail()
 
-        return
+        return self.client.find_element_by_css_selector("ul.ul").find_elements_by_css_selector("a")[0].get_attribute(
+            "href")
+
+    # region WaitFor methods
 
     def waitForName(self, name):
         for i in range(0, 30):
@@ -313,6 +297,8 @@ class CraigslistBot:
             if len(self.client.find_elements_by_class_name(className)) != 0:
                 break
             time.sleep(2)
+
+    # endregion
 
     def validatePostInEmail(self):
         self.debug("NOW, WE VALIDATE!")
@@ -348,6 +334,6 @@ class CraigslistBot:
         time.sleep(2)
 
         return self.client.current_url
-    
+
 # Test Execution
 # python {{SCRIPTNAME}} "example@example.com" "password" "123-456-7890" "Bob" "Post Title" "12345" "content.txt" 3

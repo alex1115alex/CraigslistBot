@@ -4,7 +4,7 @@
 # Alex Enterprise
 
 import argparse
-
+import os
 import time
 import shutil
 import Listing
@@ -57,15 +57,21 @@ def main(protonLogin, protonPassword, loginEmail, loginPass, contactNumber, cont
     # listingsList = clBot.initializelistings(listingFile)
     listingsList = amazonGenerator.generateListingList()
 
-    print("execute login")
+    Run.debug("Execute login")
     clBot.login()
 
-    print("post each listing...")
+    craigsListPostLinks = []
+
+    Run.debug("Post each listing...")
     i = 0
     for listing in listingsList:
-        print("Posting ad:")
+        Run.debug("Posting ad:")
         print(listing.tostring())
-        print(clBot.createpost(listing))
+        try:
+            postLink = clBot.createpost(listing)
+            craigsListPostLinks.append(postLink)
+        except:
+            Run.debug("Post listing " + listing.name + "failed for some reason")
 
         if i == len(listingsList) - 1:
             break
@@ -73,11 +79,16 @@ def main(protonLogin, protonPassword, loginEmail, loginPass, contactNumber, cont
         i += 1
         time.sleep(waitTimeBetweenPosts)  # do this for less chance of getting noticed by spam filter
 
+    # delete the images folder
+    shutil.rmtree('images')
+    # and recreate it
+    os.mkdir('images')
+
     endExecTime = time.time()
 
     Run.debug("Execution time: %s seconds" % int(endExecTime - startExecTime))
     Run.debug("Completed all tasks")
-    shutil.rmtree('images/')
+
     return 0
 
 

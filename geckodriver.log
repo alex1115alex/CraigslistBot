@@ -3193,3 +3193,972 @@ Gdk-Message: 13:56:43.137: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource
 Gdk-Message: 13:56:43.137: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
 
 Exiting due to channel error.
+1565810867801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2dsKFxm1q1xP"
+1565810868399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565810868399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565810868399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565810868399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565810869619	Marionette	INFO	Listening on port 42155
+1565810869709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565810871346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RCDF74ETUw7d"
+1565810871898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565810871899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565810871899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565810871899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565810908545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yoC9PVISU2RI"
+1565810909040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565810909040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565810909040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565810909040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565810910159	Marionette	INFO	Listening on port 46459
+1565810910253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565810911915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.95BtBumBCINN"
+1565810912591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565810912591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565810912591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565810912592	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565811926616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XZGqA01IATMH"
+1565811927131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565811927131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565811927131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565811927131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565811928176	Marionette	INFO	Listening on port 39295
+1565811928220	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565811929762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EDALXBsZKQUT"
+1565811930076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565811930076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565811930076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565811930076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565811931058	Marionette	INFO	Listening on port 40577
+1565811931067	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3531, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565812018892	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mLfCeLTWeSmB"
+1565812019198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812019198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812019199	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812019199	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812020043	Marionette	INFO	Listening on port 34707
+1565812020096	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565812021639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TFwFLJrC532f"
+1565812021958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812021958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812021958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812021958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812022894	Marionette	INFO	Listening on port 43923
+1565812022942	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4141, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Gdk-Message: 14:48:27.598: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:48:27.598: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:48:27.603: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:48:27.603: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Gdk-Message: 19:48:27.603: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 19:48:27.599: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+1565812305596	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QWG58Q1FaAAG"
+1565812305919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812305919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812305919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812305919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812306824	Marionette	INFO	Listening on port 41555
+1565812306901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565812308445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SmDVK8gK7pOu"
+1565812308778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812308778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812308778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812308778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812309887	Marionette	INFO	Listening on port 33161
+1565812309949	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4764, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Gdk-Message: 14:52:28.362: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:52:28.362: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:52:28.365: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:52:28.365: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:52:28.365: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:52:28.365: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565812365369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nAsoymrR4WFk"
+1565812365672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812365672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812365672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812365672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812366579	Marionette	INFO	Listening on port 42419
+1565812366673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565812368213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JQMrjPOwytBH"
+1565812368526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812368526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812368526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812368526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812369432	Marionette	INFO	Listening on port 34205
+1565812369519	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5353, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Gdk-Message: 14:53:25.767: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:53:25.767: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:53:25.771: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:53:25.771: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:53:25.771: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+1565812445357	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.979F5wEwiOFA"
+1565812445659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812445659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812445659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812445659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812446574	Marionette	INFO	Listening on port 43725
+1565812446661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565812448215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rYibPaY1THaz"
+1565812448534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812448535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812448535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812448535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812449445	Marionette	INFO	Listening on port 44117
+1565812449519	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5909, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://post.craigslist.org/k/uGvQUs2-6RG8jdbDRbHwrQ/KWPUz?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 14:55:33.320: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:55:33.320: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:55:33.323: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:55:33.323: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:55:33.323: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565812632294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DK400hfFe4C8"
+1565812632593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812632593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812632593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812632593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812633498	Marionette	INFO	Listening on port 36397
+1565812633599	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565812635141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XxqX8pxRaS9w"
+1565812635441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565812635441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565812635442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565812635442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565812636366	Marionette	INFO	Listening on port 46027
+1565812636444	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6534, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+Gdk-Message: 14:57:24.537: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:57:24.537: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:57:24.541: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:57:24.541: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:57:24.541: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565813171134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bLwzL40ut6cU"
+1565813171454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813171454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813171454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813171454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813172434	Marionette	INFO	Listening on port 40725
+1565813172439	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565813173980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NbcP1zxE8P03"
+1565813174291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813174292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813174292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813174292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813175206	Marionette	INFO	Listening on port 39815
+1565813175283	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8323, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://post.craigslist.org/k/6v4vBM--6RGyTyrOpGaKZg/uGfgM?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 15:07:35.513: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:07:35.513: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:07:35.517: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:07:35.517: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:07:35.517: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 20:07:35.517: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+1565813438789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NIILXzE0VxDZ"
+1565813439121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813439121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813439122	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813439122	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813440049	Marionette	INFO	Listening on port 33961
+1565813440093	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565813441667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WoY7MZnLW4Sj"
+1565813441984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813441984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813441984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813441984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813442903	Marionette	INFO	Listening on port 44857
+1565813442971	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9257, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+(/usr/lib/firefox/firefox:9598): dconf-WARNING **: 15:11:38.121: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+Gdk-Message: 15:11:41.951: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:11:41.950: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:11:41.955: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:11:41.955: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:11:41.955: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:11:41.955: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565813525804	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uuKiqp7lMXfX"
+1565813526124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813526124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813526124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813526124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813527126	Marionette	INFO	Listening on port 37759
+1565813527208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565813528760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PXiVW1XTodQO"
+1565813529100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813529100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813529100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813529100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813530084	Marionette	INFO	Listening on port 37579
+1565813530164	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9870, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://post.craigslist.org/k/fKM53M--6RGhvHTsWEYwXg/RLemF?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 15:13:38.276: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:13:38.276: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:13:38.283: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:13:38.284: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 20:13:38.283: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+1565813623703	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ch1FOgj73ZJB"
+1565813624041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813624041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813624041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813624041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813624968	Marionette	INFO	Listening on port 46595
+1565813625006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565813626561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BbgNFC9B58YK"
+1565813626890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565813626890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565813626890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565813626890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565813627869	Marionette	INFO	Listening on port 37599
+1565813627966	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10463, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://post.craigslist.org/k/BnHeEdC-6RGU4KDRsHI4Ig/hSABf?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 15:15:08.576: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:15:08.576: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:15:08.580: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:15:08.580: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:15:08.580: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:15:08.581: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565815090723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nL9j1e3H8IAF"
+1565815091062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815091062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815091062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815091062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815092001	Marionette	INFO	Listening on port 35503
+1565815092026	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565815093579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.C6jMED94V06Q"
+1565815093883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815093883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815093883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815093883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815094886	Marionette	INFO	Listening on port 40719
+1565815094983	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11672, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Gdk-Message: 15:38:38.391: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:38:38.391: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:38:38.396: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:38:38.396: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:38:38.396: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:38:38.396: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565815125353	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hHVDsCjISkwb"
+1565815125687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815125687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815125690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815125690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815126721	Marionette	INFO	Listening on port 36389
+1565815126757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565815128309	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J21A7aaGHEPB"
+1565815128663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815128663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815128663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815128663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815129611	Marionette	INFO	Listening on port 33063
+1565815129713	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12223, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 15:39:08.116: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:39:08.116: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:39:08.125: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:39:08.125: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:39:08.125: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+1565815172627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.i201e3oDtBsG"
+1565815172943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815172943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815172943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815172943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815173832	Marionette	INFO	Listening on port 46087
+1565815173933	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565815175489	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.i58NCdV2gCGA"
+1565815175797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815175797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815175797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815175797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815176739	Marionette	INFO	Listening on port 43233
+1565815176794	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12778, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 15:39:54.962: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:39:54.962: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:39:54.967: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:39:54.967: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:39:54.967: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Gdk-Message: 20:39:54.967: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565815453157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hw2D7v4EsUfz"
+1565815453493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815453493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815453493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815453493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815454360	Marionette	INFO	Listening on port 40255
+1565815454463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565815456018	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YalPoofxgTYx"
+1565815456362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565815456363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565815456363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565815456363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565815457302	Marionette	INFO	Listening on port 34511
+1565815457321	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13499, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 15:44:36.497: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:44:36.497: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:44:36.502: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:44:36.502: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:44:36.502: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+1565816133827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nLFzHELAWq2a"
+1565816134116	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816134116	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816134116	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816134117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816135066	Marionette	INFO	Listening on port 33437
+1565816135132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565816136684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rCoXlez7twPR"
+1565816137011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816137011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816137011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816137011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816138056	Marionette	INFO	Listening on port 46423
+1565816138088	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15660, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 15:55:55.648: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:55:55.648: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:55:55.652: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:55:55.652: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:55:55.652: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 20:55:55.652: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565816458784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QY2O109QC1zl"
+1565816459080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816459081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816459081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816459081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816460127	Marionette	INFO	Listening on port 46299
+1565816460190	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565816461752	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QA1UeioWH32K"
+1565816462074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816462074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816462074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816462074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816462991	Marionette	INFO	Listening on port 33803
+1565816463057	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16385, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 16:01:19.617: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:01:19.617: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:01:19.621: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:01:19.621: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565816493824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CR75wqFG51Wd"
+1565816494098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816494098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816494098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816494098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816495067	Marionette	INFO	Listening on port 38491
+1565816495128	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565816496678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K9hhY2xHVZXT"
+1565816497016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816497016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816497016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816497017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816498125	Marionette	INFO	Listening on port 35993
+1565816498183	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16951, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 16:02:07.475: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:02:07.475: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:02:07.478: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:02:07.478: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Gdk-Message: 21:02:07.478: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+1565816594816	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YRg2yMLostwc"
+1565816595078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816595079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816595079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816595079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816596018	Marionette	INFO	Listening on port 34213
+1565816596023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565816597579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w9M8CkdRF6YA"
+1565816597892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816597892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816597892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816597892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816598850	Marionette	INFO	Listening on port 35747
+1565816598882	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17581, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://post.craigslist.org/k/QE9oBNe-6RGg5ZPIC4vbXw/s28g3?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 16:04:54.412: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:04:54.412: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:04:54.416: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:04:54.416: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565816740213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rsFNFANZd9mD"
+1565816740492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816740492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816740492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816740492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816741357	Marionette	INFO	Listening on port 44717
+1565816741417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565816742966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2eykTWIqdqyN"
+1565816743299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816743299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816743299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816743299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816744245	Marionette	INFO	Listening on port 46721
+1565816744269	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18189, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://post.craigslist.org/k/5kI0WNe-6RGLEwLt7fNXBw/fTmTS?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 16:07:15.917: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:07:15.917: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:07:15.922: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:07:15.922: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:07:15.922: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:07:15.922: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565816928479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rDaI8Te60sIc"
+1565816928737	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816928737	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816928738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816928738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816929642	Marionette	INFO	Listening on port 39935
+1565816929683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565816931229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SJVF4wIP7IEa"
+1565816931532	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565816931532	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565816931532	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565816931532	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565816932464	Marionette	INFO	Listening on port 40641
+1565816932534	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18916, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://post.craigslist.org/k/KsPDx9e-6RGL9zvinlJ5qQ/R9Zv7?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 16:10:19.146: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:10:19.146: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:10:19.149: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:10:19.149: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:10:19.149: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:10:19.149: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1565817863447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O8aB2f6c9lo9"
+1565817863725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565817863725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565817863725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565817863725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565817864617	Marionette	INFO	Listening on port 40787
+1565817864651	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565817866199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HkUH6RL8kGP4"
+1565817866514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565817866515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565817866515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565817866515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565817867630	Marionette	INFO	Listening on port 36147
+1565817867704	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20843, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://post.craigslist.org/k/2D179Nm-6RGeDk9uCj22rw/eoA5m?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 16:25:54.795: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:25:54.795: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 16:25:54.800: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:25:54.800: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:25:54.800: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 16:25:54.800: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Exiting due to channel error.
+Gdk-Message: 21:25:54.796: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 21:25:54.795: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+1565818166865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Arj7WErLR1HL"
+1565818167164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565818167164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565818167164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565818167164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565818168023	Marionette	INFO	Listening on port 46131
+1565818168069	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565818169618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XLZHPFcerNDV"
+1565818169933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565818169933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565818169934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565818169934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565818170853	Marionette	INFO	Listening on port 38391
+1565818170925	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21692, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 21:29:50.538: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
