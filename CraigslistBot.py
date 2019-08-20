@@ -31,7 +31,7 @@ class CraigslistBot:
         self.display = ""
 
         if not os.name == 'nt':
-            self.display = Display(visible=0, size=(1248, 1000))  # 800x600
+            self.display = Display(visible=1, size=(1248, 1000))  # 800x600
             self.display.start()
 
         self.client = webdriver.Firefox()
@@ -48,53 +48,7 @@ class CraigslistBot:
         self.waitTime = waitTime
         self.waitTimeBetweenPosts = waitTimeBetweenPosts
 
-        self.locationCode = "lax"
-
-    @classmethod
-    def initializelistings(cls):
-        listings = []
-
-        name = ""
-        desc = ""
-        link = ""
-
-        # read listings from file
-        f = open("listings.txt", "r")
-        f1 = f.readlines()
-        i = 0
-        looking = 0  # 0 = name, 1 = desc, 2 = link
-
-        for x in f1:
-            if x in ["\n", "\r\n"]:
-                continue
-
-            if x.__contains__("Name="):
-                looking = 0
-                continue
-            if x.__contains__("Desc="):
-                looking = 1
-                continue
-            if x.__contains__("Link="):
-                looking = 2
-                continue
-            if x.__contains__("###"):
-                break
-
-            if looking == 0:
-                name += x
-            if looking == 1:
-                desc += x
-            if looking == 2:
-                link = x  # assume links are 1 line only
-                myListing = Listing(name, desc, link)
-                listings.append(myListing)
-                name = ""
-                desc = ""
-                link = ""
-                looking = 0
-
-        f.close()
-        return listings
+        self.locationCode = "chi" #nyc asks for more location data not implement yet s
 
     def __del__(self):
         if not os.name == 'nt':
@@ -104,19 +58,16 @@ class CraigslistBot:
         return 0
 
     def login(self, oneTimeLoginLink=""):
-        self.debug("loginEmail: " + self.loginEmail)
-        self.debug("loginPass: " + self.loginPass)
-
-        self.debug("Navigating to craigslist login")
+        self.debug("Logging in...")
 
         if oneTimeLoginLink == "":
             self.client.get("https://accounts.craigslist.org/login")
         else:
             self.client.get(oneTimeLoginLink)
 
-        self.debug("Logging in")
-
         self.waitForId("inputEmailHandle")
+
+        #self.debug("Inputing information to login screen")
 
         self.client.find_element_by_css_selector("#inputEmailHandle").send_keys(self.loginEmail)
 
@@ -134,12 +85,14 @@ class CraigslistBot:
         except NoSuchElementException:
             self.debug("Not logged in")
             return
-        self.debug("Logged in")
+
+        self.debug("Successfully logged in!")
 
         self.isLoggedIn = True
 
     def createpost(self, listing):
         if not self.isLoggedIn:
+            self.debug("ERROR: You're not logged in!")
             return 0
 
         self.debug("Attempting to post this listing:")
@@ -149,21 +102,23 @@ class CraigslistBot:
 
         self.debug("locationCode: " + self.locationCode)
         initialPostUrl = "https://post.craigslist.org/c/" + self.locationCode
-        self.debug("navigating to " + initialPostUrl)
+        #self.debug("navigating to " + initialPostUrl)
         self.client.get(initialPostUrl)
+
+        self.waitForCss("input[value='1']")
 
         self.client.find_element_by_css_selector("input[value='1']").click()
 
         # fso = for sale by owner
         # so  = service offered
         self.client.find_element_by_css_selector("input[value='fso']").click()
-        # time.sleep(self.waitTime)
+        time.sleep(self.waitTime)
 
         # 199 = computer parts
         # 7   = computers
         # 96  = electronics
         self.client.find_element_by_css_selector("input[value='96']").click()
-        # time.sleep(self.waitTime)
+        time.sleep(self.waitTime)
 
         """
         self.debug("Trying to fill in email")
@@ -179,34 +134,34 @@ class CraigslistBot:
             self.debug("Not avaliable")
         """
 
-        self.debug("Checking 'Okay to contact by phone'")
+        #self.debug("Checking 'Okay to contact by phone'")
         self.waitForName("show_phone_ok")
         self.client.find_element_by_name("show_phone_ok").click()
         self.client.find_element_by_name("contact_phone_ok").click()
 
-        self.debug("Checking 'Okay to contact by text'")
+        #self.debug("Checking 'Okay to contact by text'")
         self.client.find_element_by_name("contact_text_ok").click()
 
-        self.debug("Filling in contact phone number")
+        #self.debug("Filling in contact phone number")
         self.client.find_element_by_name(
             "contact_phone").send_keys(self.contactNumber)
 
-        self.debug("Filling in contact name")
+        #self.debug("Filling in contact name")
         self.client.find_element_by_name(
             "contact_name").send_keys(self.contactName)
 
-        self.debug("Filling in post title")
+        #self.debug("Filling in post title")
         spinName = spintax.spin(listing.name)
         self.client.find_element_by_name("PostingTitle").send_keys(spinName)
 
-        self.debug("Filling in zip code")
+        #self.debug("Filling in zip code")
         self.client.find_element_by_id("postal_code").send_keys(self.postCode)
 
-        self.debug("Filling in post content")
+        #self.debug("Filling in post content")
         spinDescription = spintax.spin(listing.description)
         self.client.find_element_by_name("PostingBody").send_keys(spinDescription)
 
-        self.debug("Checking 'Okay to contact for other offers'")
+        #self.debug("Checking 'Okay to contact for other offers'")
         self.waitForName("contact_ok")
         self.client.find_element_by_name("contact_ok").click()
 
@@ -219,7 +174,7 @@ class CraigslistBot:
         #    self.client.find_element_by_css_selector("#wantamap:checked").click()
         # time.sleep(self.waitTime)
 
-        self.debug("Clicking continue")
+        #self.debug("Clicking continue")
         self.client.find_element_by_name("go").click()
 
         # if "editimage" in self.client.current_url:  # FIX tHIS
@@ -229,30 +184,30 @@ class CraigslistBot:
         #   self.debug(
         #      "Could not submit. Maybe a bad email address or phone number")
 
-        self.debug("Clicking publish")
+        #self.debug("Clicking publish")
         self.waitForClass("bigbutton")
         self.client.find_element_by_class_name('bigbutton').click()
 
         # determine if we need to switch to classic uploading
         time.sleep(self.waitTime)
         if len(self.client.find_elements_by_id('classic')) != 0:
-            self.debug("clicking use classic image uploader")
+            #self.debug("clicking use classic image uploader")
             self.waitForId("classic")
             time.sleep(self.waitTime)
             self.client.find_element_by_id('classic').click()
             time.sleep(self.waitTime)  # must wait for classic to pop into the viewport
 
-        self.debug("uploading images")
+        #self.debug("uploading images")
         self.waitForName("file")
         for imagePath in listing.imagePathList:
             self.debug("Attempting to upload image: " + os.getcwd() + "/" + imagePath)
             self.client.find_element_by_name("file").send_keys(os.getcwd() + "/" + imagePath)
             time.sleep(self.waitTime)
 
-        self.debug("Clicking done with images")
+        #self.debug("Clicking done with images")
         self.client.find_element_by_class_name('bigbutton').click()
 
-        self.debug("Click publish (again)")
+        #self.debug("Click publish (again)")
         self.waitForName("go")
         self.client.find_element_by_name('go').click()
 
@@ -272,28 +227,28 @@ class CraigslistBot:
 
     def waitForName(self, name):
         for i in range(0, 30):
-            self.debug("waiting for id \"" + name + "\"...")
+            #self.debug("waiting for id \"" + name + "\"...")
             if len(self.client.find_elements_by_name(name)) != 0:
                 break
             time.sleep(2)
 
     def waitForId(self, idName):
         for i in range(0, 30):
-            self.debug("waiting for id \"" + idName + "\"...")
+            #self.debug("waiting for id \"" + idName + "\"...")
             if len(self.client.find_elements_by_id(idName)) != 0:
                 break
             time.sleep(2)
 
     def waitForCss(self, css):
         for i in range(0, 30):
-            self.debug("waiting for css selector \"" + css + "\"...")
+            #self.debug("waiting for css selector \"" + css + "\"...")
             if len(self.client.find_elements_by_css_selector(css)) != 0:
                 break
             time.sleep(2)
 
     def waitForClass(self, className):
         for i in range(0, 30):
-            self.debug("waiting for class \"" + className + "\"...")
+            #self.debug("waiting for class \"" + className + "\"...")
             if len(self.client.find_elements_by_class_name(className)) != 0:
                 break
             time.sleep(2)

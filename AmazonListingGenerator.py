@@ -32,28 +32,28 @@ class AmazonListingGenerator:
 
     def waitForName(self, name):
         for i in range(0, 30):
-            self.debug("waiting for id \"" + name + "\"...")
+            #self.debug("waiting for id \"" + name + "\"...")
             if len(self.client.find_elements_by_name(name)) != 0:
                 break
             time.sleep(2)
 
     def waitForId(self, idName):
         for i in range(0, 30):
-            self.debug("waiting for id \"" + idName + "\"...")
+            #self.debug("waiting for id \"" + idName + "\"...")
             if len(self.client.find_elements_by_id(idName)) != 0:
                 break
             time.sleep(2)
 
     def waitForCss(self, css):
         for i in range(0, 30):
-            self.debug("waiting for css selector \"" + css + "\"...")
+            #self.debug("waiting for css selector \"" + css + "\"...")
             if len(self.client.find_elements_by_css_selector(css)) != 0:
                 break
             time.sleep(2)
 
     def waitForClass(self, className):
         for i in range(0, 30):
-            self.debug("waiting for class \"" + className + "\"...")
+            #self.debug("waiting for class \"" + className + "\"...")
             if len(self.client.find_elements_by_class_name(className)) != 0:
                 break
             time.sleep(2)
@@ -78,9 +78,7 @@ class AmazonListingGenerator:
         profile.set_preference("browser.cache.memory.enable", False)
         profile.set_preference("browser.cache.offline.enable", False)
         profile.set_preference("network.http.use-cache", False)
-
         self.client = webdriver.Firefox(firefox_profile=profile)
-
 
         self.amazonLinksFile = amazonLinksFile
         self.affiliateTag = 'goodtastyfrui-20'
@@ -92,36 +90,49 @@ class AmazonListingGenerator:
         self.client.quit()
         return 0
 
+    # formats an Amazon link with your affiliate tag
     def formatAmazonLink(self, link):
         formattedLink = amazonify(link, self.affiliateTag)
-        self.debug("formattedLink: " + formattedLink)
+        # self.debug("formattedLink: " + formattedLink)
         return formattedLink
 
+    # returns a list of Listing objects
     def generateListingList(self):
-
+        i = 1
         listings = []
         f = open("links.txt", "r")  # open listings file
         f1 = f.readlines()
         for x in f1:  # for each link
-            newListing = self.generateListing(x)  # create a new listing from that amazon link
-            listings.append(newListing)  # add the listing to the list
+            if(x == "###"):
+                break
+                
+            try:
+                self.debug("Getting listing " + str(i) + "/" + str(len(f1) - 1))
+                newListing = self.generateListing(x)  # create a new listing from that amazon link
+                listings.append(newListing)  # add the listing to the list
+            except:
+                self.debug("Couldn't process link: " + x)
+                
+            i += 1
+
         return listings  # return the list
 
+    # returns a Listing object constructed from an Amazon link
     def generateListing(self, amazonLink):
         title = ""
         desc = ""
         formattedLink = ""
 
-        self.debug("Go to Amazon link")
+        # self.debug("Go to Amazon link")
         self.client.get(amazonLink)
 
         # region Get title and description
 
-        self.debug("Grabbing title")
+        # self.debug("Grabbing title")
         self.waitForId("productTitle")
         title = self.client.find_element_by_id("productTitle").text
 
-        self.debug("Grabbing description")
+        # self.debug("Grabbing description")
         desc = self.client.find_element_by_id("productDescription").text
 
         # endregion
@@ -139,20 +150,19 @@ class AmazonListingGenerator:
             if i > 8:  # don't allow more than 8 images
                 break
 
-            self.debug("DOWNLOAD IMAGE")
+            # self.debug("Downloading image")
             titleString = title.encode("utf-8")  # convert the title to a string
             imagePath = 'images/' + titleString[0:14] + " " + str(i) + ".png"  # specify image path
             imageSrc = imageElementList[i].get_attribute('src')  # get the image source
-            self.debug("imageSrc: " + imageSrc)
-            self.debug("imagePath: " + imagePath)
+            #self.debug("imageSrc: " + imageSrc)
+            #self.debug("imagePath: " + imagePath)
 
             # write the image source to the image path
             with open(imagePath, 'wb') as handle:
                 response = requests.get(imageSrc, stream=True)
 
                 if not response.ok:
-                    print response
-
+                    print(response)
                 for block in response.iter_content(1024):
                     if not block:
                         break
@@ -165,13 +175,11 @@ class AmazonListingGenerator:
         # endregion
 
         # region Format amazon link
-
-        self.debug("AAAAAAAAAAAAAAAAAAAAAAAA")
-        self.debug("Formatting Amazon link: " + amazonLink)
+        # self.debug("Formatting Amazon link: " + amazonLink)
         formattedLink = self.formatAmazonLink(amazonLink)
 
         # We're using amzn.pw. This site is dogshit so plan to migrate to another in the future
-        self.debug("Shortenening link, loading amzn.pw")
+        # self.debug("Shortenening link, loading amzn.pw")
         self.client.get("https://amzn.pw?url=" + amazonLink)
 
         # Reload the hompage by clicking main logo
@@ -196,7 +204,7 @@ class AmazonListingGenerator:
         linkDiv = self.client.find_element_by_class_name("short-url")
 
         formattedLink = linkDiv.find_element_by_css_selector("a").get_attribute('href')
-        self.debug("newLink: " + formattedLink)
+        # self.debug("newLink: " + formattedLink)
 
         # endregion
 
