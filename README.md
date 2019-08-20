@@ -1,6 +1,6 @@
 # CraigslistBot #
 
-This script was made to automate an affiliate marketing method I found. It takes in a list of Amazon links, and posts copies of Amazon product pages to Craigslist. 
+This script was made to automate an affiliate marketing method I found. It takes in a list of listings, and posts them to Craigslist. Alternatively, you can use a list of Amazon links, and the script can post copies of those Amazon product pages to Craigslist. 
 
 ### How to use ###
 
@@ -11,7 +11,7 @@ Load your Amazon links into your Amazon links file (one link per line)
 Then, call the bot like this:
 
 ```
-python Run.py "ProtonLogin" "ProtonPassword" "CraigslistEmail" "CraigslistPassword" "Contact Phone Number" "ContactName" "Zip Code" "Amazon Links File Path" int(TimeDelay) int(TimeDelayBetweenPosts
+python Run.py "ProtonLogin" "ProtonPassword" "CraigslistEmail" "CraigslistPassword" "Contact Phone Number" "ContactName" "Zip Code" "Amazon Links File Path" int(TimeDelay) int(TimeDelayBetweenPosts)
 ```
 
 Example:
