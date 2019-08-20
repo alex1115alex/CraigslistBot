@@ -6,7 +6,7 @@ This script was made to automate an affiliate marketing method I found. It takes
 
 Create a new ProtonMail account, and create a folder called craigslistBotFolder. This is the only folder you should have. I use ProtonMail for email verification for login and posting.
 
-Load your Amazon links into your Amazon links file (one link per line)
+Copy your Amazon product page links into your Amazon links file (one link per line). 
 
 Then, call the bot like this:
 
