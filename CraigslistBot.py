@@ -31,7 +31,7 @@ class CraigslistBot:
         self.display = ""
 
         if not os.name == 'nt':
-            self.display = Display(visible=1, size=(1248, 1000))  # 800x600
+            self.display = Display(visible=0, size=(1248, 1000))  # 800x600
             self.display.start()
 
         self.client = webdriver.Firefox()
@@ -95,12 +95,12 @@ class CraigslistBot:
             self.debug("ERROR: You're not logged in!")
             return 0
 
-        self.debug("Attempting to post this listing:")
-        self.debug(listing.tostring() + "\n")
+        #self.debug("Attempting to post this listing:")
+        #self.debug(listing.tostring() + "\n")
 
-        self.debug("Navigating to post page")
+        #self.debug("Navigating to post page")
 
-        self.debug("locationCode: " + self.locationCode)
+        #self.debug("locationCode: " + self.locationCode)
         initialPostUrl = "https://post.craigslist.org/c/" + self.locationCode
         #self.debug("navigating to " + initialPostUrl)
         self.client.get(initialPostUrl)
