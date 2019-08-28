@@ -103,7 +103,7 @@ class AmazonListingGenerator:
         f = open("links.txt", "r")  # open listings file
         f1 = f.readlines()
         for x in f1:  # for each link
-            if(x == "###"):
+            if("###" in x):
                 break
                 
             try:

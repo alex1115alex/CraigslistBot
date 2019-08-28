@@ -5731,3 +5731,490 @@ JavaScript error: https://post.craigslist.org/k/EoD3LnDD6RGw4z9RQ890hw/zwW59?s=p
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1566677928704	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AZtoV2zXmQJX"
+1566677929307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566677929307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566677929307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566677929307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566677930359	Marionette	INFO	Listening on port 34013
+1566677930409	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 15:18:56.031: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:18:56.032: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:18:56.032: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Exiting due to channel error.
+1566677942511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aCT2sPDBYVi6"
+1566677942816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566677942816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566677942816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566677942816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566677943787	Marionette	INFO	Listening on port 39069
+1566677943815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1566677946375	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YFUG8gFGCzSv"
+1566677946636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566677946636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566677946636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566677946636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566677947634	Marionette	INFO	Listening on port 38285
+1566677947681	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11228, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 11228, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://www.amazon.com/Nintendo-Switch-Console-Gray-Certified-Refurbished/dp/B07DF7LPC7/, line 57: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 11228, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 15:19:56.463: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:19:56.464: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:19:56.464: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+JavaScript error: https://post.craigslist.org/k/CjD0i6zG6RG918ji_jlEZA/yIkZT?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/SNynsazG6RGvn3YHCj22rw/VGSWw?s=preview, line 1: ReferenceError: pxyz is not defined
+1566678445047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Duu9EgUm2mp9"
+1566678445376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566678445376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566678445376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566678445376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566678446327	Marionette	INFO	Listening on port 38523
+1566678446350	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1566678561581	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rvPF4vvmbZKF"
+1566678561892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566678561892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566678561892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566678561892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566678562774	Marionette	INFO	Listening on port 32785
+1566678562784	Marionette	WARN	TLS certificate errors will be ignored for this session
+1566678565907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OYriaw0NIY2M"
+1566678566167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566678566167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566678566167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566678566168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566678567063	Marionette	INFO	Listening on port 38937
+1566678567111	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://www.amazon.com/Nintendo-Switch-Console-Gray-Certified-Refurbished/dp/B07DF7LPC7/, line 57: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://images-na.ssl-images-amazon.com/images/G/01/prime/js/widget._CB461650367_.js?_=1566678659601, line 244: TypeError: WlpInjectable.DependencyInjector is undefined
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://www.amazon.com/Super-NES-Classic-nintendo/dp/B0721GGGS9/, line 57: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13363, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 15:33:51.494: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1009.
+
+Gdk-Message: 15:33:51.494: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1009.
+
+Gdk-Message: 15:33:51.494: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1009.
+
+Exiting due to channel error.
+JavaScript error: https://post.craigslist.org/k/Sukpfq7G6RGldMji_jlEZA/MIbxx?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/fov6pK7G6RGr8-PdnlJ5qQ/hEis8?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/Qv6Yxa7G6RGRW3YHCj22rw/qK6zJ?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/NKF8967G6RGvEePdnlJ5qQ/84Bww?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/-gbcKq_G6RGEEuyp5hsNQw/HtkY5?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/FOa6Uq_G6RGdBQcMRki1fw/C9Wb7?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/HiV8hK_G6RGsSnYHCj22rw/zXNEK?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/qCITtq_G6RGfSRnnyLPLwQ/H6E2k?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/EuXh56_G6RGoq0mzWEYwXg/NfaZd?s=preview, line 1: ReferenceError: pxyz is not defined
+[Parent 13131, Gecko_IOThread] WARNING: pipe error (142): Connection reset by peer: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 13131, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566890518454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n0NIDWIOZBFe"
+1566890519057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566890519057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566890519057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566890519057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566890520287	Marionette	INFO	Listening on port 45455
+1566890520360	Marionette	WARN	TLS certificate errors will be ignored for this session
+1566890523811	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9eraIHptYEZU"
+1566890524075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566890524075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566890524075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566890524075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566890524997	Marionette	INFO	Listening on port 42893
+1566890525014	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://www.amazon.com/Nintendo-Switch-Console-Gray-Certified-Refurbished/dp/B07DF7LPC7/, line 57: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://images-na.ssl-images-amazon.com/images/G/01/prime/js/widget._CB461650367_.js?_=1566890571310, line 244: TypeError: WlpInjectable.DependencyInjector is undefined
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://images-na.ssl-images-amazon.com/images/G/01/prime/js/widget._CB461650367_.js?_=1566890593251, line 244: TypeError: WlpInjectable.DependencyInjector is undefined
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://www.amazon.com/Super-NES-Classic-nintendo/dp/B0721GGGS9/, line 57: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:26909): dconf-WARNING **: 02:23:41.854: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 26799, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 02:29:02.074: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 02:29:02.074: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+[Child 26909, Chrome_ChildThread] WARNING: pipe error (40): Connection reset by peer: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+JavaScript error: https://post.craigslist.org/k/mgU-WZzI6RGdX0UBRYepqA/rXtjm?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/9PsJfpzI6RGu6cl30QYlLw/P0GSp?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/6GOrnpzI6RGr3ErLH7BwZQ/fUMc7?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/QOM1zpzI6RGndXvtsHI4Ig/BS0XE?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/SptyAZ3I6RGBrpc75hfYOQ/AnqZu?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/-omSKZ3I6RGCurPJRbHwrQ/HhBjJ?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/MNhZW53I6RGZCXz8nlJ5qQ/vgQMm?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/iv3zjJ3I6RGhBhPuC4vbXw/kDqbz?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/0rzJvp3I6RGZCXz8nlJ5qQ/ch39u?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/xFKD8J3I6RGIcvE3Rki1fw/pnjy0?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/4haqHp7I6RGOsPE3Rki1fw/B34sB?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/lhZgUJ7I6RGCSErLH7BwZQ/aWCcv?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/hgMBgp7I6RGY9HvtsHI4Ig/5Lvjb?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/jnN6qZ7I6RG6vLnFQ890hw/VOgV1?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/BBRV0Z7I6RG36bPJRbHwrQ/Ymg6o?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/iuQmA5_I6RGg_dUxCj22rw/jMSMZ?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/yKGJMZ_I6RGpoPE3Rki1fw/q3fSt?s=preview, line 1: ReferenceError: pxyz is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566925114438%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566932581078%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566934428180%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566928461945%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1566941583412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OiBwqXupshKI"
+1566941583762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566941583762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566941583762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566941583762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566941584680	Marionette	INFO	Listening on port 43601
+1566941584715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1566941588623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FeZsW7I98Lud"
+1566941588887	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566941588887	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566941588887	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566941588888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566941589770	Marionette	INFO	Listening on port 40295
+1566941589826	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 15:33:09.862: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:33:09.862: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:33:09.862: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:33:09.985: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:33:09.985: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:33:09.985: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Exiting due to channel error.
+1566941630115	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.emkySwD2QQPk"
+1566941630432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566941630432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566941630432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566941630432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566941631419	Marionette	INFO	Listening on port 45603
+1566941631519	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+1566941649592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1WWZecOJYXn6"
+1566941649914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566941649915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566941649915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566941649915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566941650884	Marionette	INFO	Listening on port 44849
+1566941650898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1566941655442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jOxTGQxWnqNV"
+1566941655730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566941655731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566941655731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566941655731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566941656669	Marionette	INFO	Listening on port 42791
+1566941656749	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20869, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 20869, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://www.amazon.com/Nintendo-Switch-Console-Gray-Certified-Refurbished/dp/B07DF7LPC7/, line 57: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566928461945%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 20869, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566928461945%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Gdk-Message: 15:34:57.313: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 15:34:57.313: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+Exiting due to channel error.
+JavaScript error: https://post.craigslist.org/k/7IHRhRLJ6RG5AXLB39YNog/6W4ZS?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/jHvHqhLJ6RGNhsdERki1fw/JnFl5?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 15:42:07.467: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:42:07.467: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:42:07.467: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 15:42:07.467: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+1567024114572	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dUuzUbb1rR3E"
+1567024114917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567024114917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567024114917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567024114917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567024115859	Marionette	INFO	Listening on port 34693
+1567024115876	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567023479829%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1567024217601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cQ3SuJNI7dNF"
+1567024217860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567024217860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567024217860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567024217860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567024218814	Marionette	INFO	Listening on port 42631
+1567024218905	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 31523, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 31523, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567023479829%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 31523, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Gdk-Message: 14:31:00.623: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:31:00.623: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Gdk-Message: 14:31:00.623: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1005.
+
+Exiting due to channel error.
+JavaScript error: https://post.craigslist.org/k/CALjwdLJ6RG2vw2YRbHwrQ/vxuQF?s=preview, line 1: ReferenceError: pxyz is not defined
+JavaScript error: https://post.craigslist.org/k/Irv-5tLJ6RGiOfCz0QYlLw/xfrSb?s=preview, line 1: ReferenceError: pxyz is not defined
+Gdk-Message: 14:39:05.345: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:39:05.346: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Gdk-Message: 14:39:05.347: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+Exiting due to channel error.

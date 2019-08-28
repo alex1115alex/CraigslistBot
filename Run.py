@@ -150,7 +150,7 @@ def main(protonLogin, protonPassword, loginEmail, loginPass, contactNumber, cont
         runner = Run(protonLogin, protonPassword, loginEmail, loginPass, contactNumber, contactName, postCode, listingsFile, waitTime, waitTimeBetweenPosts)
 
         j = -1
-        while(j != 6):
+        while(j != 7):
             Run.printmenu()
 
             j = int(raw_input("Enter an option: "))

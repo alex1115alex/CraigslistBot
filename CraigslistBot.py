@@ -31,7 +31,7 @@ class CraigslistBot:
         self.display = ""
 
         if not os.name == 'nt':
-            self.display = Display(visible=0, size=(1248, 1000))  # 800x600
+            self.display = Display(visible=1, size=(1248, 1000))  # 800x600
             self.display.start()
 
         self.client = webdriver.Firefox()
@@ -204,19 +204,22 @@ class CraigslistBot:
             self.client.find_element_by_name("file").send_keys(os.getcwd() + "/" + imagePath)
             time.sleep(self.waitTime)
 
-        #self.debug("Clicking done with images")
+        self.debug("Clicking done with images")
+        self.waitForClass("bigbutton")
         self.client.find_element_by_class_name('bigbutton').click()
 
-        #self.debug("Click publish (again)")
+        self.debug("Click publish (again)")
         self.waitForName("go")
         self.client.find_element_by_name('go').click()
 
         # check if we need to verify the post
+        self.debug("Check if the post needs verified")
         time.sleep(self.waitTime)
         htmlText = self.client.find_element_by_css_selector("body").text
         # self.debug(htmlText)
         if "FURTHER ACTION REQUIRED" in htmlText:
-            # wait for the email to come through and then varify it
+            # wait for the email to come through and then verify it
+            self.debug("must verify post")
             time.sleep(45)
             self.validatePostInEmail()
 
@@ -264,31 +267,39 @@ class CraigslistBot:
         self.client.find_element_by_id("password").send_keys(self.protonPassword)
         self.client.find_element_by_id("login_btn").click()
 
+        # we're looking for the first link (our craigslistBot email folder) in the first "menuItem-label" list
         self.waitForClass("menuLabel-item")
         labelItem = self.client.find_elements_by_class_name("menuLabel-item")[0]
         labelLink = labelItem.find_elements_by_css_selector("a")[0].get_attribute('href')
         self.client.get(labelLink)
 
+        # click the newest email
         self.waitForClass("conversation")
         self.client.find_elements_by_class_name("conversation")[0].click()
 
+        # find the newest message in that email    
         self.waitForClass("message")
         correctMessage = self.client.find_elements_by_class_name("message")[-1]
 
+        # get the one time link, typically the last link in the list
         self.waitForCss("a")
         oneTimeLink = correctMessage.find_elements_by_css_selector("a")[-1].get_attribute('href')
 
+        # if the last link is a support page, select the second to last link which should be our verification link
         if oneTimeLink == "https://www.craigslist.org/about/scams?lang=en&cc=us":
             oneTimeLink = correctMessage.find_elements_by_css_selector("a")[-2].get_attribute('href')
 
+        # navigate to the verification link
         self.client.get(oneTimeLink)
 
+        # get the new post link. This may be the incorrect link, look into this.
         self.waitForCss("a")
-        labelItem.find_elements_by_css_selector("a")[0].get_attribute('href')
+        newPostLink = labelItem.find_elements_by_css_selector("a")[0].get_attribute('href')
 
         time.sleep(2)
 
-        return self.client.current_url
+        return newPostLink
+        # return self.client.current_url
 
 # Test Execution
 # python {{SCRIPTNAME}} "example@example.com" "password" "123-456-7890" "Bob" "Post Title" "12345" "content.txt" 3
