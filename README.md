@@ -28,3 +28,5 @@ python Run.py "example@protonmail.com" "password" "example@protonmail.com" "pass
 * PyVirtualDisplay
 * Spintax
 * Python 2.7
+
+This bot was inspired by notmike101's Craigslist Poster
